@@ -1,0 +1,35 @@
+.cart {
+    margin-top: 20px;
+  }
+  
+  .cart h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .cart li:before {
+    content: '•';
+    margin-right: 10px;
+    font-size: 20px;
+    color: #007bff;
+  }
+  
+  .cart li span {
+    margin-left: auto;
+    font-weight: bold;
+  }
+  
